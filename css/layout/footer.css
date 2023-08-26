@@ -376,5 +376,75 @@
   .social-link-footer:focus {
     background-color: var(--success, #31d0aa);
   }
+
+  .subscribe-form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .subscribe-form-title {
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white, #ffffff);
+  }
+
+  .subscribe-form-input {
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    border-radius: 4px;
+    border: 1px solid var(--white, #fff);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+
+    color: var(--white, #ffffff);
+  }
+
+  .subscribe-form-input::placeholder {
+    color: var(--white);
+  }
+
+  .subscribe-form-btn {
+    display: inline-flex;
+    padding: 8px 24px;
+    min-width: 165px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    border-style: none;
+    background-color: var(--iris, #4d5ae5);
+
+    text-align: center;
+
+    font-weight: 500;
+    line-height: 1.5;
+
+    letter-spacing: 0.04em;
+    color: var(--white, #ffffff);
+
+    transition: background-color var(--transition-dur-and-fn);
+  }
+
+  .subscribe-form-btn:hover {
+    background-color: var(--ocean, #404bbf);
+  }
+
+  .subscribe-form-btn-icon {
+    margin-left: 16px;
+    fill: var(--white, #ffffff);
+  }
 }
 /* ============== /DESKTOP ============== */
