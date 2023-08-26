@@ -1,0 +1,47 @@
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--ocean);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}

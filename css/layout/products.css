@@ -1,0 +1,37 @@
+/* ============== MOBILE ============== */
+@media screen and (max-width: 767px) {
+  .products {
+    display: none;
+  }
+}
+/* ============== /MOBILE ============== */
+
+/* ======================================= */
+
+/* ============== TABLET ============== */
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .products {
+    display: none;
+  }
+}
+/* ============== /TABLET ============== */
+
+/* ======================================= */
+
+/* ============== DESKTOP ============== */
+
+@media screen and (min-width: 1158px) {
+  .products-list {
+    display: flex;
+  }
+
+  .products-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+  .products-item:not(:last-child) {
+    margin-right: 24px;
+  }
+}
+/* ============== /DESKTOP ============== */
