@@ -22,6 +22,10 @@
 /* ============== DESKTOP ============== */
 
 @media screen and (min-width: 1158px) {
+  .products {
+    padding-top: 0;
+  }
+
   .products-list {
     display: flex;
   }

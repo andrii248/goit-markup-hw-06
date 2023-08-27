@@ -184,7 +184,6 @@
 
   .footer-logo {
     display: block;
-    text-align: center;
     margin-bottom: 16px;
   }
 
@@ -198,7 +197,6 @@
 
   .footer-social-title {
     margin-bottom: 16px;
-    text-align: center;
     font-size: 16px;
 
     font-weight: 500;
