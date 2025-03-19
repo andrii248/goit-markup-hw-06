@@ -567,7 +567,7 @@ button {
     margin-left: auto;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('/images/hero/bg-mobile.jpg');
+      url('../images/hero/bg-mobile.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -618,7 +618,7 @@ button {
   .hero {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('/images/hero/bg-mobile@2x.jpg');
+      url('../images/hero/bg-mobile@2x.jpg');
   }
 }
 
@@ -636,7 +636,7 @@ button {
     margin-left: auto;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('/images/hero/bg-tablet.jpg');
+      url('../images/hero/bg-tablet.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -687,7 +687,7 @@ button {
   .hero {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('/images/hero/bg-tablet@2x.jpg');
+      url('../images/hero/bg-tablet@2x.jpg');
   }
 }
 
@@ -706,7 +706,7 @@ button {
     margin-left: auto;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('/images/hero/bg-desktop.jpg');
+      url('../images/hero/bg-desktop.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -754,7 +754,7 @@ button {
   .hero {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('/images/hero/bg-desktop@2x.jpg');
+      url('../images/hero/bg-desktop@2x.jpg');
   }
 }
 
