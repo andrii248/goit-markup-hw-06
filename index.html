@@ -29,14 +29,12 @@
           >
           <ul class="page-header-list list">
             <li class="page-header-item">
-              <a href="./index.html" class="page-active page-header-link link"
+              <a href="./index.html" class="page-header-link link page-active"
                 >Studio</a
               >
             </li>
             <li class="page-header-item">
-              <a href="./portfolio.html" class="page-header-link link"
-                >Portfolio</a
-              >
+              <a href="" class="page-header-link link">Portfolio</a>
             </li>
             <li class="page-header-item">
               <a href="" class="page-header-link link">Contacts</a>
@@ -73,7 +71,6 @@
         </address>
       </div>
     </header>
-
     <!-- #endregion HEADER-->
 
     <main>
@@ -174,6 +171,7 @@
             <li class="team-member">
               <img
                 class="team-member-img"
+                srcset="./images/team/mark@2x.jpg 2x"
                 src="./images/team/mark.jpg"
                 alt="Mark Guerrero's photo"
                 width="264"
@@ -232,6 +230,8 @@
             </li>
             <li class="team-member">
               <img
+                class="team-member-img"
+                srcset="./images/team/tom@2x.jpg 2x"
                 src="./images/team/tom.jpg"
                 alt="Tom Ford's photo"
                 width="264"
@@ -292,6 +292,7 @@
             <li class="team-member">
               <img
                 class="team-member-img"
+                srcset="./images/team/camila@2x.jpg 2x"
                 src="./images/team/camila.jpg"
                 alt="Camila Garcia's photo"
                 width="264"
@@ -351,6 +352,7 @@
             <li class="team-member">
               <img
                 class="team-member-img"
+                srcset="./images/team/daniel@2x.jpg 2x"
                 src="./images/team/daniel.jpg"
                 alt="Daniel Wilson's photo"
                 width="264"
@@ -421,7 +423,8 @@
               <div class="portfolio-overlay-wrapper">
                 <img
                   class="projects-item-img"
-                  src="./images/pojects/bank-app.jpg"
+                  srcset="./images/projects/bank-appg@2x.jpg 2x"
+                  src="./images/projects/bank-app.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -442,7 +445,8 @@
               <div class="portfolio-overlay-wrapper">
                 <img
                   class="projects-item-img"
-                  src="./images/pojects/cashless-payment.jpg"
+                  srcset="./images/projects/cashless-payment@2x.jpg 2x"
+                  src="./images/projects/cashless-payment.jpg"
                   alt="Cashless Payment"
                   width="360"
                   height="300"
@@ -463,7 +467,8 @@
               <div class="portfolio-overlay-wrapper">
                 <img
                   class="projects-item-img"
-                  src="./images/pojects/meditation-app.jpg"
+                  srcset="./images/projects/meditation-app@2x.jpg 2x"
+                  src="./images/projects/meditation-app.jpg"
                   alt="Meditation App"
                   width="360"
                   height="300"
@@ -483,7 +488,8 @@
               <div class="portfolio-overlay-wrapper">
                 <img
                   class="projects-item-img"
-                  src="./images/pojects/taxi-service.jpg"
+                  srcset="./images/projects/taxi-service@2x.jpg 2x"
+                  src="./images/projects/taxi-service.jpg"
                   alt="Taxi Service"
                   width="360"
                   height="300"
@@ -503,7 +509,8 @@
               <div class="portfolio-overlay-wrapper">
                 <img
                   class="projects-item-img"
-                  src="./images/pojects/screen-illustrator.jpg"
+                  srcset="./images/projects/screen-illustrator@2x.jpg 2x"
+                  src="./images/projects/screen-illustrator.jpg"
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -523,7 +530,8 @@
               <div class="portfolio-overlay-wrapper">
                 <img
                   class="projects-item-img"
-                  src="./images/pojects/online-courses.jpg"
+                  srcset="./images/projects/online-courses@2x.jpg 2x"
+                  src="./images/projects/online-courses.jpg"
                   alt="Online Courses"
                   width="360"
                   height="300"
@@ -761,6 +769,102 @@
       </div>
     </div>
     <!-- #endregion BACKDROP AND MODAL-->
+
+    <!-- #region MOBILE MENU -->
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close-btn js-close-menu" type="button">
+          <svg class="mobile-menu-close-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#close-btn"></use>
+          </svg>
+        </button>
+
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu-list list">
+            <li class="mobile-menu-item">
+              <a href="./index.html" class="page-active mobile-menu-link link"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-menu-item">
+              <a href="./portfolio.html" class="mobile-menu-link link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-menu-item">
+              <a href="" class="mobile-menu-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="mobile-menu-contacts">
+          <ul class="mobile-menu-contacts-list list">
+            <li class="mobile-menu-contact-item">
+              <a href="tel:+110001111111" class="mobile-menu-contact-tel link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-menu-contact-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-menu-contact-email link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+
+        <div class="mobile-social">
+          <ul class="mobile-social-list list">
+            <li class="mobile-social-item">
+              <a href="" class="mobile-social-link link"
+                ><svg
+                  class="mobile-social-icon"
+                  width="24"
+                  height="24"
+                  aria-label="instagram icon"
+                >
+                  <use href="./images/icons.svg#instagram"></use></svg
+              ></a>
+            </li>
+            <li class="mobile-social-item">
+              <a href="" class="mobile-social-link link"
+                ><svg
+                  class="mobile-social-icon"
+                  width="24"
+                  height="24"
+                  aria-label="twitter icon"
+                >
+                  <use href="./images/icons.svg#twitter"></use></svg
+              ></a>
+            </li>
+            <li class="mobile-social-item">
+              <a href="" class="mobile-social-link link"
+                ><svg
+                  class="mobile-social-icon"
+                  width="24"
+                  height="24"
+                  aria-label="facebook icon"
+                >
+                  <use href="./images/icons.svg#facebook"></use></svg
+              ></a>
+            </li>
+            <li class="mobile-social-item">
+              <a href="" class="mobile-social-link link"
+                ><svg
+                  class="mobile-social-icon"
+                  width="24"
+                  height="24"
+                  aria-label="linkedin icon"
+                >
+                  <use href="./images/icons.svg#linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion MOBILE MENU-->
 
     <script src="./js/modal.js"></script>
     <script
